@@ -1,0 +1,194 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #001f3f, #0074D9);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: rgba(255,255,255,0.08);
+    padding: 30px;
+    border-radius: 14px;
+    text-align: center;
+}
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 70px;
+    width: auto;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(0,183,212,0.12);
+    background: #f6f3f3;
+    padding: 0.3rem 0.7rem;
+    object-fit: contain;
+}
+
+.header-title-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+nav a {
+    
+     color: #ffffff;
+    text-decoration: none;
+    align-items: center;
+    margin: 0 1.2rem;
+    font-weight: 600;
+    font-size: 1.15rem;
+    letter-spacing: 1px;
+    transition: color 0.2s, text-shadow 0.2s;
+    font-family: 'Montserrat', Arial, sans-serif;
+    text-shadow: 0 1px 6px rgba(0,183,212,0.15);
+}
+
+nav a:hover {
+     color: #367cd6;
+  
+}
+.button {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 12px 28px;
+    background: #00ccff;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+.button:hover {
+    background: #0099cc;
+}
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 20px;
+}
+.service-card {
+    background: rgba(0,0,0,0.18);
+    padding: 24px 18px;
+    border-radius: 10px;
+    min-width: 120px;
+    font-size: 1.1em;
+}
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+.project-card {
+    background: rgba(0,0,0,0.18);
+    padding: 18px 12px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+.project-card img {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.service-card {
+    background: rgba(0,0,0,0.18);
+    padding: 24px 18px;
+    border-radius: 14px;
+    min-width: 140px;
+    font-size: 1.1em;
+    text-align: center;
+    transition: transform 0.25s, box-shadow 0.25s, background 0.25s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    cursor: pointer;
+}
+.service-card:hover {
+    background: #00ccff33;
+    transform: translateY(-8px) scale(1.05) rotate(-2deg);
+    box-shadow: 0 8px 24px #00ccff55;
+}
+.service-img {
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 8px #00ccff22;
+    transition: box-shadow 0.2s;
+}
+.service-card:hover .service-img {
+    box-shadow: 0 4px 16px #00ccff77;
+}
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+.project-card {
+    background: rgba(0,0,0,0.18);
+    padding: 18px 12px;
+    border-radius: 14px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: 
+        transform 0.25s, 
+        box-shadow 0.25s, 
+        background 0.25s;
+    cursor: pointer;
+}
+.project-card img {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+    box-shadow: 0 2px 8px #00ccff22;
+    transition: box-shadow 0.2s;
+}
+.project-card:hover {
+    background: #00ccff33;
+    transform: translateY(-8px) scale(1.04) rotate(-2deg);
+    box-shadow: 0 8px 24px #00ccff55;
+}
+.project-card:hover img {
+    box-shadow: 0 4px 16px #00ccff77;
+}
+.project-card h3 {
+    color: #00ccff;
+    margin-bottom: 8px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+footer {
+  margin-top: auto;
+  text-align: center;
+  color: #fbfbfb;
+  padding: 16px 0;
+  border-top: 1px solid #1c1c1d;
+}
